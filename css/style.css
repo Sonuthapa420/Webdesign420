@@ -304,10 +304,68 @@ p{
   border: 2px solid black;
 }
 .blueimg{
-  height:710px;
+  height:690px;
   width:100%;
   margin:0px auto;
-  background-image: url("blueimg.jpg");
+  background-image: url("/blueimg.jpg");
   background-size: cover;
+  position: relative;
+  overflow:hidden;
+  color: white;
+}
+.blue{
+  height:690px;
+  width:60%;
+  background-color: rgba(37, 60, 141, 0.8) ;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
   
+}
+.glass{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.insideblue{
+  
+  height: 600px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.glass1, .glass2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.g1, .g2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+   height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #31D9F0;
+  font-size: 20px;
+  transition: all 0.4s linear;
+}
+.a:hover{
+  background-color:  #31D9F0;
 }
