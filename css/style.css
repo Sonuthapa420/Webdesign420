@@ -307,7 +307,7 @@ p{
   height:690px;
   width:100%;
   margin:0px auto;
-  background-image: url("/blueimg.jpg");
+  background-image: url("/images/blueimg.jpg");
   background-size: cover;
   position: relative;
   overflow:hidden;
@@ -332,7 +332,7 @@ p{
   gap: 50px;
 }
 .insideblue{
-  
+  top: -50px;
   height: 600px;
   width: 70%;
   display: flex;
@@ -363,9 +363,255 @@ p{
   height: 40px;
   border-radius: 5px;
   border: 1px solid #31D9F0;
-  font-size: 20px;
+  font-size: 18px;
   transition: all 0.4s linear;
+   font-family: 'Roboto', sans-serif;
 }
 .a:hover{
   background-color:  #31D9F0;
+}
+.recentevent{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rec02{
+  height: 130px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 4px solid grey;
+  position: relative;
+}
+.txt1{
+  font-size: 50px;
+}
+.blue02{
+    position: absolute;
+  height:130px;
+  width: 25%;
+  background-color: #3F92DF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+    color: white;
+}
+.blue03{
+   position: absolute;
+  height:130px;
+  width: 25%;
+  background-color: #FAC231;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px; 
+    color: white;
+}
+.blue04{
+  position: absolute;
+  height:130px;
+  width: 25%;
+  background-color: #363D7A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  color: white;
+}
+.txt02{
+  font-size: 22px;
+  letter-spacing: 1px;
+  right: -65px;
+  font-family: 'Abril Fatface', cursive;
+}
+.receve{
+  font-size: 20px;
+}
+.time02{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 22px;
+}
+.clock, .calender, .loaction{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 15px;
+}
+.rectopic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.recentevent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.admmain{
+  background-image: url("/images/adm.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+.blueadm{
+ background-color: rgba(37, 60, 141, 0.8) ;
+  height: 700px;
+  width: 60%;
+  right: 0px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.admtxt{
+  height: 600px;
+  width: 80%;
+  font-size: 30px;display: flex;
+  flex-direction: column;
+  padding-top: 20px ;
+  align-items: center;
+  gap: 50px;
+  color: white;
+}
+.first, .last{
+  font-size: 25px;
+}
+.phn, .gmail, .wriap{
+  font-size: 20px;
+}
+.dash{
+  height: 2px;
+  width:150px;
+  background-color: white;
+}
+.dash1{
+   height: 2px;
+  width:150px;
+    background-color: white;
+}
+.dash2{
+   height: 2px;
+  width:200px;
+    background-color: white;
+}
+.fname, .lname, .phone, .email{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 30px;
+    
+}
+.name, .contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  gap: 200px;
+}
+.appli{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 80px;
+}
+.dash3{
+   height: 2px;
+   width:350px;
+   background-color: white;
+}
+.write{
+  left: -75px;
+    display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+ 
+}
+.appadm{
+    font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #31D9F0;
+  font-size: 18px;
+  transition: all 0.4s linear;
+  left: -180px;
+}
+.appadm:hover{
+  background-color:  #31D9F0;
+}
+.recentnews{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+}
+#rnfont{
+   font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.newstopp{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.iconnews{
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.inews1, .inews2{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.i{
+  height: 26px;
+  width: 26px;
+}
+.newsimg1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
