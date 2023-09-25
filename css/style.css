@@ -3,6 +3,8 @@
   padding: 0px;
   position:relative;
 }
+
+/* NAVBAR */
 .nav{
   background-color: lightblue;
   display: flex;
@@ -11,10 +13,7 @@
   width: 100%;
   align-items: center;
   justify-content: left;
-  gap: 380px;
- 
-  
-  
+  gap: 380px;  
 }
 .side{
    display: flex;
@@ -55,7 +54,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  border: 2px solid #363D7A;
   object-position: center;
   transition: all 0.4s linear;
   border: 1px solid  #363D7A ;
@@ -64,13 +62,14 @@
   background-color: white;
   color:  #31D9F0;
   border: 1px solid #31D9F0 ;
-
 }
 .dd, .dd2{
   height: 7px;
   width: 10px;
   padding-bottom: 1px;
 }
+
+/* BOY FACE ON TXT IMAGE */
 .onimg{
   position: relative;
 }
@@ -123,6 +122,8 @@
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
 }
+
+/* SCHOLARSHIP */
 .shs{
  padding: 0px;
   display: flex;
@@ -138,7 +139,6 @@
   position: absolute;
   height: 26px;
   width: 30px;
- 
 } 
 .png2{
   height: 30px;
@@ -157,7 +157,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-
 }
 .shs2{
   height: 70px;
@@ -177,8 +176,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
- 
+  border-radius: 10px; 
 }
 .jam, .bnd, .grp{
   position: absolute;
@@ -195,6 +193,8 @@ left: 20px;
 .sch1, .sch2, .sch3{
   right: -30px;
 }
+
+/* POPULAR PROGRAM 3 IMAGES */
 .popu{
   height: 900px;
   width: 100%;
@@ -232,8 +232,7 @@ p{
 .three{
   display: flex;
   flex-direction:row;
-  justify-content:space-around;
-  
+  justify-content:space-around; 
 }
 .img1, .img2, .img3{
   height:460px;
@@ -303,6 +302,8 @@ p{
    font-family: 'Roboto', sans-serif;
   border: 2px solid black;
 }
+
+/* iMAGE IN DIV (LATEST COURSES) */
 .blueimg{
   height:690px;
   width:100%;
@@ -321,8 +322,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  
+  font-size: 25px; 
 }
 .glass{
   display: flex;
@@ -370,6 +370,8 @@ p{
 .a:hover{
   background-color:  #31D9F0;
 }
+
+/* RECENT EVENT */
 .recentevent{
   height: 700px;
   width: 100%;
@@ -466,6 +468,8 @@ p{
   align-items: center;
   gap: 50px;
 }
+
+/* APPLY FOR ADDMISSION */
 .admmain{
   background-image: url("/images/adm.jpg");
   background-size: cover;
@@ -548,7 +552,6 @@ p{
   flex-direction: column;
   justify-content: left;
   align-items: left;
- 
 }
 .appadm{
     font-family: 'Roboto', sans-serif;
@@ -566,15 +569,16 @@ p{
 .appadm:hover{
   background-color:  #31D9F0;
 }
+
+/* RECENT NEWS 2 IMAGES */
 .recentnews{
-  height: 700px;
+  height: 850px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
- 
 }
 #rnfont{
    font-family: 'Abril Fatface', cursive;
@@ -589,14 +593,14 @@ p{
    display: flex;
   justify-content: center;
   align-items: center;
- 
+  font-size: 25px;
 }
-.iconnews{
+.iconnews0, .iconnews1{
    display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 45px;
 }
 .inews1, .inews2{
     display: flex;
@@ -608,10 +612,262 @@ p{
   height: 26px;
   width: 26px;
 }
-.newsimg1{
+.newsimg1
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  
+}
+.newsimg2{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.newsimg{
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.smallline{
+  height: 20px;
+  width: 2px;
+  background-color: grey;
+}
+.ex{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.groupstudy{
+  background-image: url(/images/newsimg.jpg);
+  background-size: cover;
+  height: 415px;
+  width: 557px;
+  position: relative;
+}
+.halllife{
+   background-image: url(/images/newsimg.jpg);
+  background-size: cover;
+  height: 415px;
+  width: 557px;
+  position: relative;
+}
+.smalldabba1{
+  height: 55px;
+  width: 35%;
+  background-color: #FAC231;
+  position: absolute;
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  bottom: 0px;
+}
+.smalldabba2{
+  height: 55px;
+  width: 35%;
+  background-color: #31D9F0;
+  position: absolute;
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  bottom: 0px;
+}
+
+/* FOOTER */
+.footer{
+  height: 750px;
+  width: 100%;
+  background-color: #0C1243CC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stayupdated{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+.su1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ gap: 50px;
+  height: 150px;
+  width:650px;
+  /* background-color:lightblue; */
+}
+.su2{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+   height: 150px;
+  width:450px;
+  /* background-color: lightcyan; */
+}
+.esu1{
+  height:45px;
+  width:600px;
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30px;
+  position:relative;
+  font-family: 'Poppins', sans-serif;
+  font-size:20px;
+  
+}
+.ssu1{
+  background-color:#FAC231;
+  height:45px;
+  width:30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  right:0px;
+  position:absolute;
+  color:white;
+}
+.stay{
+  font-size:25px;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  font-weight:bold;
+ left: -235px;
+}
+.stay2{
+   font-size:25px;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  font-weight:bold;
+  left: -70px;
+}
+.insidefooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 650px;
+  width: 90%;
+  gap: 40px;
+  left: -50px;
+}
+.su2img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.fac{
+   height:50px;
+  width:60px;
+  background-color:#3453C0D6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
+.insta{
+   height:50px;
+  width:60px;
+  background-color:#FAC231;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} 
+.twitter {
+   height:50px;
+  width:60px;
+  background-color:#CD2121;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.google{
+  height:50px;
+  width:60px;
+  background-color:#253C8DD6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fourtopics{
+  height:250px;
+  width: 90%;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  left: -155px;
+}
+.aboutus,.campus,.study,.support{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 30px;
+}
+.list1,.list2,.list3,.list4{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 2px;
+}
+.list11,.list22,.list33,.list44{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 15px;
+  color: white;
+}
+.endline{
+  height:2px;
+  width: 100%;
+  background-color: white;
+  left: 0px;
+}
+.end{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 70px;
+  height: 150px;
+  width: 80%;
+  left: -35px;
+}
+.endtxt{
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
 }
